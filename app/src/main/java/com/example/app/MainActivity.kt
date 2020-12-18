@@ -27,4 +27,15 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
 
     }
+
+    fun gotoScrollView(view: View){
+        val intent = Intent(this, ScrollingActivity::class.java);
+        startActivity(intent);
+
+    }
+
+    fun gotoRecyclerView(view: View){
+        val intent = Intent(this, RecyclerViewActivity::class.java);
+        startActivity(intent);
+    }
 }
