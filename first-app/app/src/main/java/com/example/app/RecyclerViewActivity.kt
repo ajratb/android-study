@@ -10,7 +10,7 @@ class RecyclerViewActivity : AppCompatActivity() {
         setContentView(R.layout.activity_recycler_view)
         val recycler = findViewById<RecyclerView>(R.id.rListView)
 
-        val data = (0..100).map { "МИХА ЛИДЕР!"}//"Value #$it" }
+        val data = (0..100).map { "МИХА, ЛИДЕР!"}//"Value #$it" }
         recycler.adapter=MyRecyclerAdapter(data)
     }
 }
